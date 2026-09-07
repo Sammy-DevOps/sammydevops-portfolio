@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Sammy Mohamed — DevOps & Cloud Engineer portfolio">
+  <title>Sammy Mohamed | DevOps & Cloud Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#202126;color:#d9dce3;font-family:Inter,Arial,sans-serif}.shell{width:min(1180px,calc(100% - 44px));margin:auto}.site-header{position:sticky;top:0;z-index:50;background:rgba(31,32,36,.92);backdrop-filter:blur(14px);border-bottom:1px solid #2e3036}.nav{height:86px;display:flex;align-items:center;justify-content:space-between}.logo{display:flex;align-items:center;gap:11px;text-decoration:none;color:white;font-family:Montserrat;font-weight:800;font-size:21px}.logo-box{width:42px;height:42px;border-radius:9px;background:#ff4d67;color:#fff;display:grid;place-items:center;font-size:13px;box-shadow:0 7px 18px rgba(255,77,103,.22)}.nav-links{display:flex;gap:28px}.nav-links a{text-decoration:none;color:#c0c3ca;font-size:14px}.nav-links a:hover{color:#ff4d67}.menu{display:none;border:0;background:none;color:white;font-size:25px}.hero{min-height:680px;padding:110px 0 90px;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}.eyebrow{font-family:Montserrat;font-weight:700;letter-spacing:.16em;font-size:12px;color:#a7abb3}.hero h1,.hero h2,.section-title{font-family:Montserrat;margin:0}.hero h1{font-size:68px;letter-spacing:-.05em;line-height:1.05;margin:18px 0 6px;color:#fff}.hero h1 span,.typed{color:#ff4d67}.hero h2{font-size:40px;letter-spacing:-.035em}.intro{max-width:720px;color:#aeb2ba;font-size:16px;line-height:1.9;margin-top:28px}.hero-actions{display:flex;gap:12px;margin-top:30px}.btn{padding:13px 19px;border-radius:7px;text-decoration:none;font-weight:600;font-size:14px}.btn.primary{background:#ff4d67;color:white;box-shadow:0 9px 24px rgba(255,77,103,.2)}.btn.secondary{background:#26272c;color:#fff;border:1px solid #3a3c43}.skill-block{margin-top:52px}.skill-block>p{font-size:11px;font-weight:700;letter-spacing:.14em;color:#8c9098}.skill-icons{display:flex;gap:12px;flex-wrap:wrap}.skill-icons span{min-width:62px;height:46px;padding:0 13px;border-radius:7px;background:#27292e;box-shadow:8px 8px 18px #18191d,-5px -5px 14px #292b30;display:grid;place-items:center;font-weight:700;font-size:11px;color:#d6d9df}.hero-art{height:470px;position:relative;display:grid;place-items:center}.glow{position:absolute;width:330px;height:330px;background:radial-gradient(circle,rgba(255,77,103,.25),transparent 68%);filter:blur(8px)}.profile-card{position:relative;width:310px;height:360px;border-radius:24px;background:linear-gradient(145deg,#2a2c32,#1c1d21);box-shadow:18px 18px 40px #18191c,-12px -12px 28px #2b2d32;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid #34363d}.avatar{width:155px;height:155px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#ff5570,#c22f4b);font:800 46px Montserrat;color:white;border:7px solid #24252a}.profile-mini{text-align:center;margin-top:24px}.profile-mini strong,.profile-mini span{display:block}.profile-mini strong{font-family:Montserrat;color:white;font-size:19px}.profile-mini span{font-size:12px;color:#90949c;margin-top:7px}.floating-card{position:absolute;background:#27292e;border:1px solid #34363d;padding:13px 16px;border-radius:10px;box-shadow:12px 12px 25px #17181b}.floating-card small,.floating-card strong{display:block}.floating-card small{font-size:9px;color:#848993;text-transform:uppercase;letter-spacing:.12em}.floating-card strong{font-size:12px;color:#fff;margin-top:4px}.one{left:0;top:80px}.two{right:0;top:170px}.three{left:35px;bottom:35px}.divider{height:1px;background:#303138}.section{padding:95px 0}.section-title{color:#fff;font-size:56px;letter-spacing:-.04em;margin:12px 0 45px}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.feature-card,.project-card,.resume-card,.contact-card{background:linear-gradient(145deg,#24252a,#1d1e22);box-shadow:12px 12px 28px #17181b,-8px -8px 20px #292a2f;border:1px solid #2d2f35}.feature-card{min-height:270px;padding:34px;border-radius:12px;transition:.25s}.feature-card:hover{transform:translateY(-6px);border-color:#ff4d67}.icon{font:700 28px Montserrat;color:#ff4d67}.feature-card h3{font:700 20px Montserrat;color:#fff;margin:24px 0 12px}.feature-card p{color:#9da1aa;line-height:1.8;font-size:14px}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}.project-card{border-radius:13px;overflow:hidden}.project-card.featured{grid-column:span 2;display:grid;grid-template-columns:1fr 1fr}.project-visual{min-height:235px;padding:28px;display:flex;align-items:center;justify-content:center;gap:13px;background:#15161a;font-family:Montserrat;font-weight:700}.project-card.featured .project-visual{min-height:100%}.sammypulse{flex-direction:column;align-items:stretch;background:radial-gradient(circle at 80% 10%,rgba(255,77,103,.15),transparent 35%),#14171e}.visual-top{font-size:12px;letter-spacing:.16em;color:#ff4d67;margin-bottom:25px}.request-flow,.mini-deploy{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.request-flow span,.mini-deploy span{padding:12px 14px;background:#20252e;border:1px solid #343b47;border-radius:8px;font-size:11px}.mini-deploy{margin-top:35px}.mini-deploy span{font-size:9px}.network span,.docker span{background:#242933;padding:18px 20px;border-radius:10px;color:#fff;border:1px solid #3b414e}.network span:nth-child(2){color:#ff4d67}.docker b{color:#ff4d67}.linux{justify-content:flex-start}.linux code{color:#7fe1a7;font-size:15px;line-height:2}.project-body{padding:30px}.project-body h3{font:700 24px Montserrat;color:#fff;margin:0 0 12px}.project-body p{color:#9ea2aa;line-height:1.75;font-size:14px}.project-link{display:inline-block;color:#ff4d67;text-decoration:none;font-weight:600;font-size:13px;margin-top:14px}.highlights-btn{border:0;background:transparent;color:#ff4d67;padding:0;font:600 13px Inter;cursor:pointer}.highlights{display:none;color:#9ea2aa;font-size:13px}.highlights.open{display:block}.highlights li{margin:8px 0}.tabs{display:grid;grid-template-columns:repeat(3,1fr);border-radius:8px;overflow:hidden;margin-bottom:42px;box-shadow:8px 8px 20px #18191c}.tab{padding:18px;border:0;background:#24252a;color:#a4a8b0;cursor:pointer;font:600 14px Montserrat}.tab.active{color:#ff4d67;background:#1d1e22;box-shadow:inset 0 -2px 0 #ff4d67}.tab-panel{display:none}.tab-panel.active{display:block}.resume-columns{display:grid;grid-template-columns:290px 1fr;gap:50px}.range{color:#ff4d67;font-size:12px}.resume-columns>div>h3{font:700 31px Montserrat;color:#fff;margin:9px 0}.resume-stack{display:grid;gap:20px}.resume-card{padding:27px;border-radius:10px;position:relative}.resume-card h4{font:700 20px Montserrat;color:#fff;margin:0 0 5px}.resume-card p{margin:0;color:#91959e}.resume-card .detail{margin-top:18px;color:#b3b6bd;line-height:1.7}.resume-card small{display:block;margin-top:10px;color:#737780}.grade{position:absolute;top:26px;right:26px;background:#1a1b1f;padding:7px 10px;border-radius:5px;color:#ff4d67;font-size:11px}.skill-bars{max-width:850px;display:grid;gap:26px}.skill-bars label{display:flex;justify-content:space-between;color:#ddd;font-size:13px;margin-bottom:9px}.skill-bars label span{color:#ff4d67}.skill-bars i{display:block;height:9px;background:#18191d;border-radius:20px;overflow:hidden}.skill-bars i b{display:block;height:100%;background:linear-gradient(90deg,#ff4d67,#ff7a8d);border-radius:20px}.contact{padding-bottom:120px}.contact-card{max-width:720px;padding:44px;border-radius:14px}.contact-card h2{font:800 48px Montserrat;color:white;margin:10px 0 24px}.contact-card h3{font:700 25px Montserrat;margin-bottom:3px}.contact-card>p{color:#9da1aa;line-height:1.8}.contact-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.contact-links a{padding:11px 14px;background:#18191d;border:1px solid #33353b;border-radius:7px;color:#e2e4e8;text-decoration:none;font-size:13px}.contact-links a:hover{color:#ff4d67}footer{border-top:1px solid #303138;padding:26px 0 35px;display:flex;justify-content:space-between;color:#767a82;font-size:12px}
+@media(max-width:900px){.nav-links{display:none;position:absolute;top:86px;left:0;right:0;background:#202126;padding:22px;flex-direction:column}.nav-links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;padding-top:70px}.hero-art{margin-top:20px}.feature-grid{grid-template-columns:1fr 1fr}.project-card.featured{grid-column:span 1;grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.resume-columns{grid-template-columns:1fr}.hero h1{font-size:56px}.section-title{font-size:44px}}@media(max-width:600px){.feature-grid{grid-template-columns:1fr}.hero-art{height:400px}.profile-card{width:250px;height:300px}.avatar{width:125px;height:125px}.floating-card{display:none}.hero h1{font-size:48px}.hero h2{font-size:31px}.tabs{grid-template-columns:1fr}.shell{width:min(100% - 28px,1180px)}footer{gap:20px;flex-direction:column}}
+/* Stronger visible colour pass */
+body{
+  background:
+    radial-gradient(circle at 78% 8%, rgba(255,62,91,.11), transparent 24%),
+    radial-gradient(circle at 8% 42%, rgba(99,102,241,.08), transparent 20%),
+    #1d1e23;
+}
+.site-header{background:rgba(29,30,35,.90)}
+.logo-box{background:linear-gradient(135deg,#ff3154,#ff6b7f)}
+.hero h1 span,.typed,.project-link,.highlights-btn,.range,.grade,.nav-links a:hover{color:#ff3154}
+.btn.primary{background:linear-gradient(135deg,#ff3154,#ff5f76);box-shadow:0 10px 30px rgba(255,49,84,.30)}
+.btn.secondary.linkedin{border-color:rgba(88,166,255,.45);color:#b9dcff}
+.feature-card:hover{border-color:#ff3154;box-shadow:0 18px 36px #15161a,-6px -6px 18px #2b2d33,0 0 0 1px rgba(255,49,84,.12)}
+.icon{color:#ff3154}
+.section .eyebrow{color:#ff5470}
+.project-visual{background:linear-gradient(145deg,#15161a,#1b1d23)}
+.sammypulse{
+ background:
+ radial-gradient(circle at 80% 15%,rgba(255,49,84,.28),transparent 33%),
+ radial-gradient(circle at 15% 85%,rgba(75,137,255,.18),transparent 32%),
+ #12151c;
+}
+.request-flow span:nth-of-type(1){border-color:#5c82ff;color:#b8c9ff}
+.request-flow span:nth-of-type(2){border-color:#9c68ff;color:#d1baff}
+.request-flow span:nth-of-type(3){border-color:#ff5a70;color:#ffb0bc}
+.request-flow span:nth-of-type(4){border-color:#38c98a;color:#9ef0c7}
+.mini-deploy span{border-color:#3b5578}
+.network{background:radial-gradient(circle at center,rgba(255,49,84,.13),transparent 60%),#15161a}
+.network span:nth-child(1){border-color:#ff9b36;color:#ffc47e}
+.network span:nth-child(2){border-color:#ff3154;color:#ff9aaa}
+.network span:nth-child(3){border-color:#4c91ff;color:#a8ccff}
+.docker{background:radial-gradient(circle at center,rgba(45,139,255,.17),transparent 60%),#15161a}
+.docker span:first-child{border-color:#318dff;color:#91c5ff}
+.docker span:last-child{border-color:#ff9b36;color:#ffc47e}
+.linux{background:radial-gradient(circle at 20% 50%,rgba(52,211,153,.11),transparent 55%),#15161a}
+.skill-icons span:nth-child(1){color:#ffb45f}
+.skill-icons span:nth-child(2){color:#b996ff}
+.skill-icons span:nth-child(3){color:#75b9ff}
+.skill-icons span:nth-child(4){color:#f0f0f0}
+.skill-icons span:nth-child(5){color:#75e6ad}
+.tab.active{color:#ff3154;box-shadow:inset 0 -2px 0 #ff3154}
+.skill-bars i b{background:linear-gradient(90deg,#ff3154,#ff7186)}
+.contact-links a:hover{color:#ff3154;border-color:#ff3154}
+
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav shell">
+      <a href="#home" class="logo"><span class="logo-box">SM</span><span>Sammy.</span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY WORLD</p>
+        <h1>Hi, I’m <span>Sammy.</span></h1>
+        <h2>a <span class="typed" data-words="DevOps Engineer,Cloud Engineer,Automation Builder">DevOps Engineer</span></h2>
+        <p class="intro">
+          I build, automate and troubleshoot cloud infrastructure with a focus on AWS, Terraform, Docker and CI/CD.
+          My background in IT support shaped the way I work: understand the problem, trace the system, fix it properly and prove the result.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="https://github.com/Abdisamad0203" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="btn secondary linkedin" href="https://www.linkedin.com/in/a---mohamed/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+
+        <div class="skill-block">
+          <p>BEST SKILL IN</p>
+          <div class="skill-icons">
+            <span>AWS</span><span>TF</span><span>Docker</span><span>Linux</span><span>CI/CD</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="glow"></div>
+        <div class="profile-card">
+          <div class="avatar">SM</div>
+          <div class="profile-mini">
+            <strong>Sammy Mohamed</strong>
+            <span>DevOps • Cloud • Automation</span>
+          </div>
+        </div>
+        <div class="floating-card one"><small>Infrastructure</small><strong>Terraform</strong></div>
+        <div class="floating-card two"><small>Containers</small><strong>Docker + ECS</strong></div>
+        <div class="floating-card three"><small>Automation</small><strong>GitHub Actions</strong></div>
+      </div>
+    </section>
+
+    <div class="divider shell"></div>
+
+    <section id="features" class="section shell">
+      <p class="eyebrow">FEATURES</p>
+      <h2 class="section-title">What I Do</h2>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="icon">☁</div><h3>Cloud Infrastructure</h3>
+          <p>Building AWS infrastructure with clear networking, security and deployment paths.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">↻</div><h3>CI/CD Pipelines</h3>
+          <p>Automating build and deployment workflows through GitHub Actions.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">{ }</div><h3>Infrastructure as Code</h3>
+          <p>Using Terraform to create repeatable, reviewable and consistent infrastructure.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">$_</div><h3>Linux & Bash</h3>
+          <p>Working comfortably in Linux and using Bash to automate repetitive tasks.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">◫</div><h3>Containerisation</h3>
+          <p>Packaging applications with Docker and deploying container workloads on AWS.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">⌁</div><h3>Troubleshooting</h3>
+          <p>Tracing failures across networking, applications and cloud infrastructure to find the real cause.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="divider shell"></div>
+
+    <section id="projects" class="section shell">
+      <p class="eyebrow">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-visual sammypulse">
+            <div class="visual-top">SAMMYPULSE</div>
+            <div class="request-flow">
+              <span>User</span><b>→</b><span>DNS</span><b>→</b><span>ALB</span><b>→</b><span>ECS</span>
+            </div>
+            <div class="mini-deploy"><span>GitHub Actions</span><b>→</b><span>ECR</span><b>→</b><span>ECS</span></div>
+          </div>
+          <div class="project-body">
+            <h3>SammyPulse</h3>
+            <p>An uptime monitoring app deployed on AWS ECS Fargate with Terraform, Docker, HTTPS and automated deployments.</p>
+            <button class="highlights-btn" data-target="sammy-highlights">View highlights</button>
+            <div id="sammy-highlights" class="highlights">
+              <ul>
+                <li>Containerised the application with Docker and pushed images to Amazon ECR.</li>
+                <li>Provisioned AWS infrastructure with Terraform.</li>
+                <li>Automated deployments through GitHub Actions using OIDC rather than long-lived AWS keys.</li>
+                <li>Configured ALB, Route 53 and HTTPS for a real public request path.</li>
+                <li>Tested ECS self-healing by deliberately stopping a running task.</li>
+                <li>Tested monitoring and alert delivery by deliberately causing a service failure.</li>
+              </ul>
+            </div>
+            <a class="project-link" href="https://github.com/Abdisamad0203" target="_blank" rel="noreferrer">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual network"><span>AWS</span><span>ALB</span><span>EC2</span></div>
+          <div class="project-body"><h3>AWS Load Balancer</h3><p>Two EC2 instances behind an Application Load Balancer across public subnets with health checks and security-group isolation.</p><a class="project-link" href="https://github.com/Abdisamad0203/devops-learning" target="_blank" rel="noreferrer">View project ↗</a></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual docker"><span>Docker</span><b>→</b><span>ECR</span></div>
+          <div class="project-body"><h3>Containerisation</h3><p>Built and tested container images locally, worked with Docker networking and pushed images into Amazon ECR.</p><a class="project-link" href="https://github.com/Abdisamad0203/devops-learning" target="_blank" rel="noreferrer">View project ↗</a></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual linux"><code>$ bash deploy.sh<br>$ terraform plan<br>$ git push</code></div>
+          <div class="project-body"><h3>Linux & Automation</h3><p>Hands-on Linux, Bash and Git work focused on repeatable workflows and practical troubleshooting.</p><a class="project-link" href="https://github.com/Abdisamad0203/devops-learning" target="_blank" rel="noreferrer">View project ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <div class="divider shell"></div>
+
+    <section id="resume" class="section shell">
+      <p class="eyebrow">MY BACKGROUND</p>
+      <h2 class="section-title">My Resume</h2>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="education">Education</button>
+        <button class="tab" data-tab="skills">Professional Skills</button>
+        <button class="tab" data-tab="experience">Experience</button>
+      </div>
+
+      <div class="tab-panel active" id="education">
+        <div class="resume-columns">
+          <div>
+            <span class="range">2025</span><h3>Education & Certification</h3>
+          </div>
+          <div class="resume-stack">
+            <article class="resume-card">
+              <div><h4>City & Guilds — ICT Systems & Principles</h4><p>London Vesta College · 2025</p></div>
+              <span class="grade">Distinction*</span>
+              <p class="detail">Networking Principles · ICT System & Data Security · Technical Fault Diagnosis</p>
+              <small>*Distinction achieved in ICT System & Data Security.</small>
+            </article>
+            <article class="resume-card">
+              <div><h4>DevOps Engineering Programme</h4><p>CoderCo · 2026 — Present</p></div>
+              <p class="detail">AWS · Linux · Networking · Docker · Terraform · CI/CD · Kubernetes</p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="skills">
+        <div class="skill-bars">
+          <div><label>AWS & Cloud Infrastructure <span>Hands-on</span></label><i><b style="width:82%"></b></i></div>
+          <div><label>Terraform <span>Hands-on</span></label><i><b style="width:78%"></b></i></div>
+          <div><label>Docker & Containers <span>Hands-on</span></label><i><b style="width:82%"></b></i></div>
+          <div><label>Linux & Bash <span>Hands-on</span></label><i><b style="width:76%"></b></i></div>
+          <div><label>GitHub Actions / CI-CD <span>Hands-on</span></label><i><b style="width:74%"></b></i></div>
+          <div><label>Networking & Troubleshooting <span>Strong foundation</span></label><i><b style="width:84%"></b></i></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="experience">
+        <div class="resume-columns">
+          <div><span class="range">2021 — Present</span><h3>Job Experience</h3></div>
+          <div class="resume-stack">
+            <article class="resume-card">
+              <div><h4>DevOps Engineering</h4><p>CoderCo · 2026 — Present</p></div>
+              <p class="detail">Building production-style cloud projects and developing practical skills across AWS, infrastructure as code, containers and automation.</p>
+            </article>
+            <article class="resume-card">
+              <div><h4>Security Operations</h4><p>LSS · 2023 — Present</p></div>
+              <p class="detail">Incident response, access control and site operations in a high-security environment, working effectively under pressure.</p>
+            </article>
+            <article class="resume-card">
+              <div><h4>IT Support</h4><p>Al-Abrar Foundation · 2021 — 2023</p></div>
+              <p class="detail">Diagnosed system issues, configured devices, resolved incidents and managed support requests while building a strong troubleshooting foundation.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider shell"></div>
+
+    <section id="contact" class="section shell contact">
+      <div class="contact-card">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Contact Me</h2>
+        <h3>Sammy.</h3>
+        <p>DevOps & Cloud Engineer</p>
+        <p>I’m currently building hands-on cloud infrastructure projects and open to junior DevOps / Cloud opportunities in London.</p>
+        <div class="contact-links">
+          <a href="mailto:30abdimoh16@gmail.com">Email me</a>
+          <a href="https://github.com/Abdisamad0203" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/a---mohamed/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <span>© 2026 Sammy Mohamed</span>
+    <span>DevOps • Cloud • Automation</span>
+  </footer>
+
+  <script>
+const menu=document.querySelector('.menu'), nav=document.querySelector('.nav-links');
+menu?.addEventListener('click',()=>nav.classList.toggle('open'));
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+
+document.querySelectorAll('.highlights-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const el=document.getElementById(btn.dataset.target);
+    el.classList.toggle('open');
+    btn.textContent=el.classList.contains('open')?'Hide highlights':'View highlights';
+  });
+});
+
+const typed=document.querySelector('.typed');
+if(typed){
+  const words=typed.dataset.words.split(',');
+  let wi=0, ci=words[0].length, deleting=true;
+  function tick(){
+    const w=words[wi];
+    if(deleting){ci--; if(ci<=0){deleting=false;wi=(wi+1)%words.length;}}
+    else{ci++; if(ci>=words[wi].length){deleting=true;setTimeout(tick,900);return;}}
+    typed.textContent=words[wi].slice(0,Math.max(0,ci));
+    setTimeout(tick,deleting?45:75);
+  }
+  setTimeout(tick,1200);
+}
+</script>
+</body>
+</html>
