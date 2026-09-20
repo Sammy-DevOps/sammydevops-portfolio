@@ -3,239 +3,77 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Sammy Mohamed — DevOps & Cloud Engineer portfolio">
-  <title>Sammy Mohamed | DevOps & Cloud Engineer</title>
+  <meta name="description" content="Sammy — DevOps and Cloud Engineer building and troubleshooting AWS infrastructure with Terraform, Docker and GitHub Actions.">
+  <meta name="theme-color" content="#0a0a0b">
+  <title>Sammy | DevOps Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0a0a0b;--surface:#111113;--surface2:#17171a;--line:#28282d;--text:#f5f5f7;--muted:#a1a1aa;--accent:#ff4d67;--green:#70e1a1;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.header{position:sticky;top:0;z-index:20;background:rgba(10,10,11,.84);border-bottom:1px solid rgba(255,255,255,.07);backdrop-filter:blur(16px)}.brand{font:800 21px Manrope;text-decoration:none}.brand span{color:var(--accent)}.navlinks{display:flex;align-items:center;gap:28px}.navlinks a{text-decoration:none;color:#b6b6bd;font-size:14px}.navlinks a:hover{color:#fff}.nav-cta{border:1px solid #3b3b42!important;border-radius:8px;padding:10px 14px;color:#fff!important}.menu{display:none;background:none;border:0;color:#fff;font-size:25px}.hero{padding:112px 0 96px;display:grid;grid-template-columns:1.18fr .82fr;gap:74px;align-items:center}.status{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border:1px solid #2d352f;border-radius:999px;color:#b9c0bb;font-size:13px;background:#111512}.status i{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 15px var(--green)}h1,h2,h3{font-family:Manrope;margin:0}.hero h1{font-size:clamp(54px,7vw,88px);line-height:.98;letter-spacing:-.065em;margin:27px 0 25px}.hero h1 span{color:var(--accent)}.lede{font-size:19px;line-height:1.7;color:#b1b1ba;max-width:690px}.lede strong{color:#fff;font-weight:600}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 18px;border-radius:9px;text-decoration:none;font-weight:700;font-size:14px;border:1px solid #34343a;background:#151518;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#55555e}.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.proof{margin-top:38px;display:flex;gap:24px;flex-wrap:wrap;color:#888891;font-size:13px}.proof span{color:#e5e5e8;font-weight:700}.terminal{background:#101012;border:1px solid var(--line);border-radius:14px;box-shadow:0 26px 70px rgba(0,0,0,.45);overflow:hidden}.terminal-top{height:43px;display:flex;align-items:center;gap:7px;padding:0 15px;border-bottom:1px solid var(--line)}.terminal-top i{width:9px;height:9px;border-radius:50%;background:#39393e}.terminal-body{padding:28px;font:13px/2 ui-monospace,SFMono-Regular,Consolas,monospace;color:#a9abb3}.terminal-body .pink{color:#ff7489}.terminal-body .green{color:#7ce2a8}.terminal-body .white{color:#f0f0f2}.section{padding:96px 0;border-top:1px solid #1d1d20}.kicker{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.16em}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:42px}.section h2{font-size:clamp(38px,5vw,57px);letter-spacing:-.045em;margin-top:10px}.section-intro{max-width:490px;color:var(--muted);line-height:1.7}.feature{display:grid;grid-template-columns:1.1fr .9fr;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--surface)}.project-demo{padding:44px;min-height:440px;background:radial-gradient(circle at 15% 15%,rgba(255,77,103,.13),transparent 34%),#0d0e11;display:flex;flex-direction:column;justify-content:center}.project-label{color:var(--accent);font:800 12px Manrope;letter-spacing:.16em}.project-demo h3{font-size:44px;letter-spacing:-.04em;margin:12px 0 30px}.flow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.flow span{border:1px solid #343741;background:#171920;border-radius:8px;padding:10px 12px;font:600 11px ui-monospace,monospace}.flow b{color:#5c5d65}.deploy{margin-top:17px}.deploy span{border-color:#3c3034;color:#ffc1ca}.project-copy{padding:44px;display:flex;flex-direction:column;justify-content:center}.project-copy h3{font-size:27px;margin-bottom:16px}.project-copy p{color:#a9a9b1;line-height:1.75}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0 23px}.tags span{padding:7px 10px;border-radius:6px;background:#1b1b1e;color:#c6c6cb;font-size:12px}.wins{padding:0;margin:0 0 25px;list-style:none;color:#b3b3ba;font-size:14px}.wins li{margin:11px 0;padding-left:23px;position:relative}.wins li:before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800}.project-actions{display:flex;gap:11px;flex-wrap:wrap}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:29px;border:1px solid var(--line);border-radius:13px;background:var(--surface);transition:.2s}.card:hover{transform:translateY(-4px);border-color:#44444b}.card .num{color:var(--accent);font:800 12px Manrope}.card h3{font-size:19px;margin:20px 0 11px}.card p{color:var(--muted);line-height:1.7;font-size:14px}.stack{display:flex;flex-wrap:wrap;gap:10px}.stack span{padding:11px 14px;border:1px solid var(--line);background:#121214;border-radius:8px;color:#d7d7db;font-size:13px;font-weight:600}.journey{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px}.journey-copy p{color:var(--muted);line-height:1.8}.timeline{display:grid;gap:14px}.role{padding:25px;border:1px solid var(--line);background:var(--surface);border-radius:12px}.role small{color:var(--accent);font-weight:700}.role h3{font-size:18px;margin:8px 0}.role p{margin:0;color:var(--muted);font-size:14px;line-height:1.65}.contact-box{text-align:center;padding:75px 30px;border:1px solid var(--line);border-radius:18px;background:radial-gradient(circle at 50% 0,rgba(255,77,103,.12),transparent 42%),var(--surface)}.contact-box h2{font-size:clamp(40px,6vw,68px);max-width:800px;margin:12px auto 18px}.contact-box p{color:var(--muted);font-size:17px}.contact-box .actions{justify-content:center}footer{padding:28px 0 40px;color:#71717a;font-size:13px;display:flex;justify-content:space-between}
+    .next-project{margin-top:24px;display:grid;grid-template-columns:.92fr 1.08fr;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--surface)}.anime-demo{padding:42px;background:radial-gradient(circle at 20% 10%,rgba(152,92,255,.20),transparent 35%),#0e0d13;display:flex;flex-direction:column;justify-content:center}.building{width:max-content;padding:7px 10px;border:1px solid #594477;border-radius:999px;color:#cbb5f4;font-size:11px;font-weight:800;letter-spacing:.1em}.anime-demo h3{font-size:38px;letter-spacing:-.04em;margin:17px 0 8px}.anime-demo>p{color:#aaa4b4;margin:0 0 25px}.anime-list{display:grid;gap:8px}.anime-choice{border:1px solid #37333f;background:#17151d;color:#cac5d0;border-radius:8px;padding:11px 13px;text-align:left;font:600 13px "DM Sans";cursor:pointer;transition:.2s}.anime-choice:hover,.anime-choice.active{border-color:#9c68ff;color:#fff;background:#211a2c;transform:translateX(4px)}.match-result{margin-top:16px;padding:14px;border:1px solid #3b3149;border-radius:9px;color:#cbb5f4;font-size:13px;min-height:49px}.v2-copy{padding:42px}.v2-copy h3{font-size:25px;margin-bottom:14px}.v2-copy p{color:var(--muted);line-height:1.72}.architecture{margin-top:22px;border-top:1px solid var(--line)}.arch-row{width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 0;border:0;border-bottom:1px solid var(--line);background:transparent;color:#eee;text-align:left;font:700 14px "DM Sans";cursor:pointer}.arch-row span{color:#777780;font-size:18px}.arch-detail{display:none;color:#9e9ea7;font-size:13px;line-height:1.65;padding:0 0 15px}.arch-detail.open{display:block}.small-note{font-size:12px!important;color:#777780!important;margin-top:18px!important}.now{color:#cbb5f4!important;border-color:#594477!important}.portrait-wrap{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:570px}.portrait-glow{position:absolute;top:5px;width:86%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(117,55,255,.23),transparent 67%);filter:blur(22px)}.portrait{position:relative;width:min(100%,420px);height:auto;display:block;filter:drop-shadow(0 25px 42px rgba(0,0,0,.35));transition:transform .3s}.portrait-wrap:hover .portrait{transform:translateY(-4px)}.tech-stack{position:relative;width:100%;margin-top:16px;padding:16px;border:1px solid #2b2b31;border-radius:14px;background:linear-gradient(145deg,#151518,#101012);box-shadow:0 16px 38px rgba(0,0,0,.26)}.tech-title{display:flex;align-items:center;gap:10px;color:#8d8d96;font-size:10px;font-weight:800;letter-spacing:.16em;margin-bottom:12px}.tech-title:after{content:"";height:1px;flex:1;background:#29292e}.tech-logos{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.tech-item{min-width:0;display:grid;grid-template-columns:34px 1fr;align-items:center;gap:10px;padding:10px;border:1px solid #26262c;border-radius:9px;background:#18181b;transition:.2s}.tech-item:hover{transform:translateY(-2px);border-color:#3e3e46;background:#1b1b1f}.tech-item img{width:27px;height:27px;object-fit:contain}.tech-copy{min-width:0}.tech-copy strong,.tech-copy small{display:block}.tech-copy strong{font-size:11px;color:#eee}.tech-copy small{margin-top:2px;color:#71717a;font-size:9px;white-space:nowrap}
+    .anime-demo{padding:36px;background:radial-gradient(circle at 15% 8%,rgba(157,78,255,.27),transparent 34%),radial-gradient(circle at 95% 90%,rgba(255,77,103,.18),transparent 32%),#0e0d13}.building{border-color:#6a4b8d;color:#dbc8ff;background:rgba(120,70,170,.13)}.anime-demo h3{margin-bottom:6px}.anime-demo>p{margin-bottom:22px}.anime-list{grid-template-columns:repeat(3,1fr);gap:9px}.anime-choice{border-radius:11px;padding:12px 7px 10px;text-align:center;font-size:11px}.anime-choice:hover,.anime-choice.active{border-color:#a878ff;background:#251b32;transform:translateY(-3px);box-shadow:0 10px 22px rgba(0,0,0,.25)}.anime-avatar{width:46px;height:46px;margin:0 auto 8px;border-radius:50%;display:grid;place-items:center;font:800 15px Manrope;color:#fff;border:2px solid rgba(255,255,255,.16);box-shadow:inset 0 0 18px rgba(255,255,255,.08)}.luffy{background:linear-gradient(145deg,#e23f3f,#f5a623)}.gojo{background:linear-gradient(145deg,#61aef8,#8054dc)}.naruto{background:linear-gradient(145deg,#ff8a26,#d84b2c)}.levi{background:linear-gradient(145deg,#536a62,#1e2d29)}.light{background:linear-gradient(145deg,#8e303b,#24242b)}.tanjiro{background:linear-gradient(145deg,#1d8a72,#171a20)}.anime-choice small{display:block;color:#77717f;font-size:8px;margin-top:2px}.match-result{margin-top:15px;padding:15px;border-color:#443553;border-radius:11px;background:rgba(17,14,22,.75);min-height:93px}.result-top{display:flex;justify-content:space-between;align-items:center;gap:10px}.result-top strong{font:700 13px Manrope;color:#fff}.match-score{color:#8ff0b7;font:800 12px Manrope}.match-result p{margin:7px 0 0;color:#aaa4b4;font-size:11px;line-height:1.55}.match-placeholder{display:grid;place-items:center;color:#8d8495;font-size:12px;height:61px;text-align:center}
+    .anime-slogan{font:700 14px Manrope;color:#d8c8f1;margin:0 0 6px}.anime-purpose{margin:0 0 22px!important;font-size:11px;color:#8f8799!important;line-height:1.5}.anime-avatar{overflow:hidden;position:relative}.anime-avatar img{width:100%;height:100%;object-fit:cover;display:none}.anime-avatar.loaded img{display:block}.anime-avatar .fallback{position:absolute;inset:0;display:grid;place-items:center}.anime-avatar.loaded .fallback{display:none}
+    @media(max-width:850px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;padding:25px;background:#0d0d0f;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;padding-top:78px}.terminal{display:none}.feature,.next-project{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.journey{grid-template-columns:1fr}.section-head{display:block}.section-intro{margin-top:18px}}
+    @media(max-width:560px){.wrap{width:min(var(--max),calc(100% - 28px))}.hero h1{font-size:53px}.hero{padding-bottom:75px}.lede{font-size:17px}.portrait-wrap{min-height:560px}.portrait{width:min(100%,390px)}.tech-stack{margin-top:8px;padding:12px}.tech-item{grid-template-columns:28px 1fr;padding:9px 7px;gap:7px}.tech-item img{width:23px;height:23px}.tech-copy strong{font-size:10px}.tech-copy small{font-size:8px}.section{padding:74px 0}.project-demo,.project-copy{padding:27px}.project-demo{min-height:340px}.project-demo h3{font-size:35px}.cards{grid-template-columns:1fr}.proof{gap:13px}.contact-box{padding:55px 20px}footer{gap:10px;flex-direction:column}}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav shell">
-      <a href="#home" class="logo"><span class="logo-box">SM</span><span>Sammy.</span></a>
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#features">Features</a>
-        <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <button class="menu" aria-label="Open menu">☰</button>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home" class="hero shell">
-      <div class="hero-copy">
-        <p class="eyebrow">WELCOME TO MY WORLD</p>
-        <h1>Hi, I’m <span>Sammy.</span></h1>
-        <h2>a <span class="typed" data-words="DevOps Engineer,Cloud Engineer,Automation Builder">DevOps Engineer</span></h2>
-        <p class="intro">
-          I build, automate and troubleshoot cloud infrastructure with a focus on AWS, Terraform, Docker and CI/CD.
-          My background in IT support shaped the way I work: understand the problem, trace the system, fix it properly and prove the result.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="https://github.com/Abdisamad0203" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a class="btn secondary linkedin" href="https://www.linkedin.com/in/a---mohamed/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        </div>
-
-        <div class="skill-block">
-          <p>BEST SKILL IN</p>
-          <div class="skill-icons">
-            <span>AWS</span><span>TF</span><span>Docker</span><span>Linux</span><span>CI/CD</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-art">
-        <div class="glow"></div>
-        <div class="profile-card">
-          <div class="avatar">SM</div>
-          <div class="profile-mini">
-            <strong>Sammy Mohamed</strong>
-            <span>DevOps • Cloud • Automation</span>
-          </div>
-        </div>
-        <div class="floating-card one"><small>Infrastructure</small><strong>Terraform</strong></div>
-        <div class="floating-card two"><small>Containers</small><strong>Docker + ECS</strong></div>
-        <div class="floating-card three"><small>Automation</small><strong>GitHub Actions</strong></div>
-      </div>
+  <header class="header"><nav class="nav wrap"><a class="brand" href="#top">Sammy<span>.</span></a><div class="navlinks"><a href="#work">Work</a><a href="#skills">Skills</a><a href="#about">About</a><a href="https://github.com/Sammy-DevOps" target="_blank" rel="noopener">GitHub ↗</a><a class="nav-cta" href="#contact">Let's talk</a></div><button class="menu" aria-label="Toggle navigation">☰</button></nav></header>
+  <main id="top">
+    <section class="hero wrap">
+      <div><div class="status"><i></i> DevOps & Cloud</div><h1>I build cloud systems that <span>work.</span></h1><p class="lede">I'm <strong>Sammy</strong>, a DevOps and Cloud Engineer in London. I build, automate and troubleshoot AWS infrastructure using Terraform, Docker and GitHub Actions.</p><div class="actions"><a class="btn primary" href="#work">See my work ↓</a><a class="btn" href="https://github.com/Sammy-DevOps" target="_blank" rel="noopener">GitHub ↗</a><a class="btn" href="https://www.linkedin.com/in/a---mohamed/" target="_blank" rel="noopener">LinkedIn ↗</a></div><div class="proof"><div><span>AWS</span> infrastructure</div><div><span>Terraform</span> IaC</div><div><span>GitHub Actions</span> CI/CD</div></div></div>
+      <div class="portrait-wrap"><div class="portrait-glow"></div><img class="portrait" src="profile.png" alt="Sammy, DevOps and Cloud Engineer"><div class="tech-stack"><div class="tech-title">CORE TECH STACK</div><div class="tech-logos"><div class="tech-item"><img src="https://cdn.simpleicons.org/amazonwebservices/FF9900" alt="AWS"><div class="tech-copy"><strong>AWS</strong><small>Cloud infrastructure</small></div></div><div class="tech-item"><img src="https://cdn.simpleicons.org/terraform/844FBA" alt="Terraform"><div class="tech-copy"><strong>Terraform</strong><small>Infrastructure as code</small></div></div><div class="tech-item"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker"><div class="tech-copy"><strong>Docker</strong><small>Containers</small></div></div><div class="tech-item"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions"><div class="tech-copy"><strong>GitHub Actions</strong><small>CI/CD automation</small></div></div><div class="tech-item"><img src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux"><div class="tech-copy"><strong>Linux</strong><small>Systems and Bash</small></div></div><div class="tech-item"><img src="https://cdn.simpleicons.org/git/F05032" alt="Git"><div class="tech-copy"><strong>Git</strong><small>Version control</small></div></div></div></div></div>
     </section>
 
-    <div class="divider shell"></div>
+    <section class="section" id="work"><div class="wrap"><div class="section-head"><div><div class="kicker">FEATURED PROJECT</div><h2>SammyPulse</h2></div><p class="section-intro">A real AWS deployment showing how I build, secure, automate and troubleshoot a service from end to end.</p></div><article class="feature"><div class="project-demo"><div class="project-label">AWS ECS FARGATE</div><h3>Request path</h3><div class="flow"><span>User</span><b>→</b><span>Route 53</span><b>→</b><span>HTTPS</span><b>→</b><span>ALB</span><b>→</b><span>ECS</span></div><div class="flow deploy"><span>GitHub Actions</span><b>→</b><span>ECR</span><b>→</b><span>Fargate</span></div></div><div class="project-copy"><h3>Uptime monitoring on AWS</h3><p>Containerised Gatus and deployed it on ECS Fargate. Terraform manages the infrastructure and separate GitHub Actions workflows handle application delivery and infrastructure changes.</p><div class="tags"><span>AWS</span><span>Terraform</span><span>Docker</span><span>ECS</span><span>OIDC</span><span>CloudWatch</span></div><ul class="wins"><li>HTTPS through ACM, Route 53 and an ALB</li><li>Restricted task traffic to the ALB on port 8080</li><li>Commit SHA image tags and automated health checks</li><li>SSM secrets, CloudWatch logs and failure alerts</li></ul><div class="project-actions"><a class="btn primary" href="https://github.com/Sammy-DevOps/SammyPulse_ECS" target="_blank" rel="noopener">View repository ↗</a><a class="btn" href="https://github.com/Sammy-DevOps/SammyPulse_ECS#readme" target="_blank" rel="noopener">Read case study</a></div></div></article>
 
-    <section id="features" class="section shell">
-      <p class="eyebrow">FEATURES</p>
-      <h2 class="section-title">What I Do</h2>
+      <article class="next-project"><div class="anime-demo"><div class="building">NOW BUILDING</div><h3>What’s Your Anime?</h3><p>Pick a character and preview your match.</p><div class="anime-list"><button class="anime-choice" data-title="One Piece" data-match="98% match" data-result="Adventure, loyalty and long journeys. Recommended because you enjoy determined characters and massive worlds."><span class="anime-avatar luffy">👒</span>Luffy<small>One Piece</small></button><button class="anime-choice" data-title="Jujutsu Kaisen" data-match="95% match" data-result="Power, humour and high-pressure battles. Recommended because you enjoy confident characters with hidden depth."><span class="anime-avatar gojo">∞</span>Gojo<small>Jujutsu Kaisen</small></button><button class="anime-choice" data-title="Naruto" data-match="93% match" data-result="Growth, rivalry and perseverance. Recommended because you enjoy long character journeys and earned strength."><span class="anime-avatar naruto">🍥</span>Naruto<small>Naruto</small></button><button class="anime-choice" data-title="Attack on Titan" data-match="91% match" data-result="Tension, sacrifice and hard decisions. Recommended because you enjoy serious worlds and tactical action."><span class="anime-avatar levi">⚔</span>Levi<small>Attack on Titan</small></button><button class="anime-choice" data-title="Death Note" data-match="89% match" data-result="Strategy, morality and psychological pressure. Recommended because you enjoy characters who try to outthink each other."><span class="anime-avatar light">L</span>Light<small>Death Note</small></button><button class="anime-choice" data-title="Demon Slayer" data-match="87% match" data-result="Family, resilience and beautiful combat. Recommended because you enjoy emotional stories with focused action."><span class="anime-avatar tanjiro">炭</span>Tanjiro<small>Demon Slayer</small></button></div><div class="match-result"><div class="match-placeholder">Select a character to reveal a recommendation</div></div></div><div class="v2-copy"><div class="kicker now">ECS V2 · IN PROGRESS</div><h3>Anime recommendations built as a multi-service platform</h3><p>I love anime but struggled to understand my own taste and find recommendations that genuinely matched it. This app turns a user’s favourites into a genre profile, five matches and a reason behind each one.</p><p>Behind the experience, I’m building three containerised services on ECS Fargate and focusing on traffic routing, asynchronous work, caching, security and reliable deployments.</p><div class="tags"><span>AWS ECS Fargate</span><span>Application Load Balancer</span><span>AWS WAF</span><span>ElastiCache Redis</span><span>Amazon SQS</span><span>DynamoDB</span><span>Terraform</span><span>GitHub Actions + OIDC</span></div><div class="architecture"><button class="arch-row">Frontend, API and worker <span>+</span></button><div class="arch-detail">Three separate ECS services keep the user interface, recommendation logic and background event processing independent.</div><button class="arch-row">Redis and SQS <span>+</span></button><div class="arch-detail">Redis caches common results for faster responses. SQS moves click events out of the request path so the worker can process them reliably.</div><button class="arch-row">WAF, OIDC and Terraform <span>+</span></button><div class="arch-detail">WAF protects the public entry point, OIDC removes stored AWS keys, and Terraform makes infrastructure changes repeatable and reviewable.</div></div><p class="small-note">Architecture is in progress and will be refined as I test each tradeoff.</p></div></article>
+    </div></section>
 
-      <div class="feature-grid">
-        <article class="feature-card">
-          <div class="icon">☁</div><h3>Cloud Infrastructure</h3>
-          <p>Building AWS infrastructure with clear networking, security and deployment paths.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">↻</div><h3>CI/CD Pipelines</h3>
-          <p>Automating build and deployment workflows through GitHub Actions.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">{ }</div><h3>Infrastructure as Code</h3>
-          <p>Using Terraform to create repeatable, reviewable and consistent infrastructure.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">$_</div><h3>Linux & Bash</h3>
-          <p>Working comfortably in Linux and using Bash to automate repetitive tasks.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">◫</div><h3>Containerisation</h3>
-          <p>Packaging applications with Docker and deploying container workloads on AWS.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">⌁</div><h3>Troubleshooting</h3>
-          <p>Tracing failures across networking, applications and cloud infrastructure to find the real cause.</p>
-        </article>
-      </div>
-    </section>
+    <section class="section" id="skills"><div class="wrap"><div class="section-head"><div><div class="kicker">HOW I WORK</div><h2>Build. Automate. Troubleshoot.</h2></div><p class="section-intro">I care about understanding the request path, securing each hop and proving that a deployment works.</p></div><div class="cards"><article class="card"><div class="num">01</div><h3>Cloud infrastructure</h3><p>VPCs, subnets, security groups, load balancers, IAM and ECS workloads on AWS.</p></article><article class="card"><div class="num">02</div><h3>Infrastructure as code</h3><p>Modular Terraform, remote state and reviewed plans before infrastructure changes.</p></article><article class="card"><div class="num">03</div><h3>CI/CD</h3><p>GitHub Actions pipelines using OIDC, immutable image tags and post-deployment checks.</p></article><article class="card"><div class="num">04</div><h3>Containers</h3><p>Multi-stage Docker builds, Amazon ECR and container workloads running on Fargate.</p></article><article class="card"><div class="num">05</div><h3>Observability</h3><p>CloudWatch logs, health endpoints, alerts and deliberate failure testing.</p></article><article class="card"><div class="num">06</div><h3>Troubleshooting</h3><p>Tracing failures across DNS, HTTPS, load balancing, networking and applications.</p></article></div><div class="stack" style="margin-top:28px"><span>AWS</span><span>Terraform</span><span>Docker</span><span>GitHub Actions</span><span>Linux</span><span>Bash</span><span>Git</span><span>Networking</span></div></div></section>
 
-    <div class="divider shell"></div>
+    <section class="section" id="about"><div class="wrap journey"><div class="journey-copy"><div class="kicker">ABOUT ME</div><h2>Operations experience. DevOps focus.</h2><p>Security operations taught me to stay calm under pressure, investigate properly and communicate clearly. I now bring that same mindset to cloud infrastructure.</p><p>I learn by building real systems, testing what happens when they fail and understanding each decision well enough to explain it.</p></div><div class="timeline"><article class="role"><small>2026 — PRESENT</small><h3>DevOps Engineering · CoderCo</h3><p>Building production-style AWS projects across cloud, containers, infrastructure as code and CI/CD.</p></article><article class="role"><small>2023 — PRESENT</small><h3>Security Operations · LSS</h3><p>Incident handling, access control and site operations in a security-focused environment.</p></article></div></div></section>
 
-    <section id="projects" class="section shell">
-      <p class="eyebrow">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
-      <h2 class="section-title">My Projects</h2>
-
-      <div class="project-grid">
-        <article class="project-card featured">
-          <div class="project-visual sammypulse">
-            <div class="visual-top">SAMMYPULSE</div>
-            <div class="request-flow">
-              <span>User</span><b>→</b><span>DNS</span><b>→</b><span>ALB</span><b>→</b><span>ECS</span>
-            </div>
-            <div class="mini-deploy"><span>GitHub Actions</span><b>→</b><span>ECR</span><b>→</b><span>ECS</span></div>
-          </div>
-          <div class="project-body">
-            <h3>SammyPulse</h3>
-            <p>An uptime monitoring app deployed on AWS ECS Fargate with Terraform, Docker, HTTPS and automated deployments.</p>
-            <button class="highlights-btn" data-target="sammy-highlights">View highlights</button>
-            <div id="sammy-highlights" class="highlights">
-              <ul>
-                <li>Containerised the application with Docker and pushed images to Amazon ECR.</li>
-                <li>Provisioned AWS infrastructure with Terraform.</li>
-                <li>Automated deployments through GitHub Actions using OIDC rather than long-lived AWS keys.</li>
-                <li>Configured ALB, Route 53 and HTTPS for a real public request path.</li>
-                <li>Tested ECS self-healing by deliberately stopping a running task.</li>
-                <li>Tested monitoring and alert delivery by deliberately causing a service failure.</li>
-              </ul>
-            </div>
-            <a class="project-link" href="https://github.com/Abdisamad0203" target="_blank" rel="noreferrer">View project ↗</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual network"><span>AWS</span><span>ALB</span><span>EC2</span></div>
-          <div class="project-body"><h3>AWS Load Balancer</h3><p>Two EC2 instances behind an Application Load Balancer across public subnets with health checks and security-group isolation.</p><a class="project-link" href="https://github.com/Abdisamad0203/devops-learning" target="_blank" rel="noreferrer">View project ↗</a></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual docker"><span>Docker</span><b>→</b><span>ECR</span></div>
-          <div class="project-body"><h3>Containerisation</h3><p>Built and tested container images locally, worked with Docker networking and pushed images into Amazon ECR.</p><a class="project-link" href="https://github.com/Abdisamad0203/devops-learning" target="_blank" rel="noreferrer">View project ↗</a></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual linux"><code>$ bash deploy.sh<br>$ terraform plan<br>$ git push</code></div>
-          <div class="project-body"><h3>Linux & Automation</h3><p>Hands-on Linux, Bash and Git work focused on repeatable workflows and practical troubleshooting.</p><a class="project-link" href="https://github.com/Abdisamad0203/devops-learning" target="_blank" rel="noreferrer">View project ↗</a></div>
-        </article>
-      </div>
-    </section>
-
-    <div class="divider shell"></div>
-
-    <section id="resume" class="section shell">
-      <p class="eyebrow">MY BACKGROUND</p>
-      <h2 class="section-title">My Resume</h2>
-
-      <div class="tabs">
-        <button class="tab active" data-tab="education">Education</button>
-        <button class="tab" data-tab="skills">Professional Skills</button>
-        <button class="tab" data-tab="experience">Experience</button>
-      </div>
-
-      <div class="tab-panel active" id="education">
-        <div class="resume-columns">
-          <div>
-            <span class="range">2025</span><h3>Education & Certification</h3>
-          </div>
-          <div class="resume-stack">
-            <article class="resume-card">
-              <div><h4>City & Guilds — ICT Systems & Principles</h4><p>London Vesta College · 2025</p></div>
-              <span class="grade">Distinction*</span>
-              <p class="detail">Networking Principles · ICT System & Data Security · Technical Fault Diagnosis</p>
-              <small>*Distinction achieved in ICT System & Data Security.</small>
-            </article>
-            <article class="resume-card">
-              <div><h4>DevOps Engineering Programme</h4><p>CoderCo · 2026 — Present</p></div>
-              <p class="detail">AWS · Linux · Networking · Docker · Terraform · CI/CD · Kubernetes</p>
-            </article>
-          </div>
-        </div>
-      </div>
-
-      <div class="tab-panel" id="skills">
-        <div class="skill-bars">
-          <div><label>AWS & Cloud Infrastructure <span>Hands-on</span></label><i><b style="width:82%"></b></i></div>
-          <div><label>Terraform <span>Hands-on</span></label><i><b style="width:78%"></b></i></div>
-          <div><label>Docker & Containers <span>Hands-on</span></label><i><b style="width:82%"></b></i></div>
-          <div><label>Linux & Bash <span>Hands-on</span></label><i><b style="width:76%"></b></i></div>
-          <div><label>GitHub Actions / CI-CD <span>Hands-on</span></label><i><b style="width:74%"></b></i></div>
-          <div><label>Networking & Troubleshooting <span>Strong foundation</span></label><i><b style="width:84%"></b></i></div>
-        </div>
-      </div>
-
-      <div class="tab-panel" id="experience">
-        <div class="resume-columns">
-          <div><span class="range">2021 — Present</span><h3>Job Experience</h3></div>
-          <div class="resume-stack">
-            <article class="resume-card">
-              <div><h4>DevOps Engineering</h4><p>CoderCo · 2026 — Present</p></div>
-              <p class="detail">Building production-style cloud projects and developing practical skills across AWS, infrastructure as code, containers and automation.</p>
-            </article>
-            <article class="resume-card">
-              <div><h4>Security Operations</h4><p>LSS · 2023 — Present</p></div>
-              <p class="detail">Incident response, access control and site operations in a high-security environment, working effectively under pressure.</p>
-            </article>
-            <article class="resume-card">
-              <div><h4>IT Support</h4><p>Al-Abrar Foundation · 2021 — 2023</p></div>
-              <p class="detail">Diagnosed system issues, configured devices, resolved incidents and managed support requests while building a strong troubleshooting foundation.</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="divider shell"></div>
-
-    <section id="contact" class="section shell contact">
-      <div class="contact-card">
-        <p class="eyebrow">CONTACT</p>
-        <h2>Contact Me</h2>
-        <h3>Sammy.</h3>
-        <p>DevOps & Cloud Engineer</p>
-        <p>I’m currently building hands-on cloud infrastructure projects and open to junior DevOps / Cloud opportunities in London.</p>
-        <div class="contact-links">
-          <a href="mailto:YOUR_EMAIL@example.com">Email me</a>
-          <a href="https://github.com/Abdisamad0203" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/a---mohamed/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        </div>
-      </div>
-    </section>
+    <section class="section" id="contact"><div class="wrap"><div class="contact-box"><div class="kicker">LET'S CONNECT</div><h2>Let’s talk DevOps and Cloud.</h2><p>Based in London and ready to build, automate and troubleshoot.</p><div class="actions"><a class="btn primary" href="mailto:30abdimoh16@gmail.com">Email Sammy ↗</a><a class="btn" href="https://www.linkedin.com/in/a---mohamed/" target="_blank" rel="noopener">Connect on LinkedIn</a></div></div></div></section>
   </main>
-
-  <footer class="shell">
-    <span>© 2026 Sammy Mohamed</span>
-    <span>DevOps • Cloud • Automation</span>
-  </footer>
-
-  <script src="script.js"></script>
+  <footer class="wrap"><span>© 2026 Sammy</span><span>DevOps · Cloud · Automation</span></footer>
+  <script>
+    const m=document.querySelector('.menu'),n=document.querySelector('.navlinks');
+    m.addEventListener('click',()=>n.classList.toggle('open'));
+    document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>n.classList.remove('open')));
+    const animeDemo=document.querySelector('.anime-demo');
+    if(animeDemo){
+      const intro=animeDemo.querySelector('h3 + p');
+      if(intro) intro.outerHTML='<div class="anime-slogan">Your watchlist knows you. We explain why.</div><p class="anime-purpose">Choose the characters you love to discover your taste profile and your next five anime.</p>';
+      const characters=[
+        ['.luffy','40','Luffy'],['.gojo','164471','Gojo'],['.naruto','17','Naruto'],
+        ['.levi','45627','Levi'],['.light','80','Light Yagami'],['.tanjiro','146156','Tanjiro']
+      ];
+      characters.forEach(([selector,id,name],index)=>{
+        const avatar=animeDemo.querySelector(selector);
+        if(!avatar) return;
+        const fallback=avatar.textContent;
+        avatar.innerHTML=`<img alt="${name}"><span class="fallback">${fallback}</span>`;
+        setTimeout(()=>fetch(`https://api.jikan.moe/v4/characters/${id}`)
+          .then(response=>response.ok?response.json():Promise.reject())
+          .then(data=>{
+            const img=avatar.querySelector('img');
+            img.onload=()=>avatar.classList.add('loaded');
+            img.src=data.data.images.jpg.image_url;
+          }).catch(()=>{}),index*400);
+      });
+    }
+    const result=document.querySelector('.match-result');
+    document.querySelectorAll('.anime-choice').forEach(choice=>choice.addEventListener('click',()=>{
+      document.querySelectorAll('.anime-choice').forEach(item=>item.classList.remove('active'));
+      choice.classList.add('active');
+      result.innerHTML=`<div class="result-top"><strong>${choice.dataset.title}</strong><span class="match-score">${choice.dataset.match}</span></div><p>${choice.dataset.result}</p>`;
+    }));
+    document.querySelectorAll('.arch-row').forEach(row=>row.addEventListener('click',()=>{
+      const detail=row.nextElementSibling,open=detail.classList.toggle('open'); row.querySelector('span').textContent=open?'−':'+';
+    }));
+  </script>
 </body>
 </html>
